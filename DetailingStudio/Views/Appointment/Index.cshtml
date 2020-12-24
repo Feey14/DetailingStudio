@@ -1,4 +1,46 @@
 ﻿@page
 @{
 }
-appointment
+<div class="w-25 m-auto">
+    <form>
+        <h2 class="text-center mt-5">Make an appointment</h2>
+        <label for="fname">First name</label><br>
+        <input class="input-field" type="text" id="fname" name="fname"><br>
+
+        <label for="lname">Last name</label><br>
+        <input class="input-field" type="text" id="lname" name="lname"><br>
+
+        <label for="phone">Phone numer</label><br>
+        <input class="input-field" type="text" id="phone" name="phone"><br>
+
+        <label for="cars">Choose a car</label><br>
+        <select class="input-field" name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select><br>
+
+        <label for="cars">Choose a detaling type</label><br>
+        <select class="input-field" name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select><br>
+
+        <label for="cars">Choose a date and time</label><br>
+        <label>Estimated time : 1232</label>
+        <select class="input-field" name="time" id="time">
+            <option value="1100">11:00</option>
+            <option value="1200">12:00</option>
+            <option value="1300">13:00</option>
+            <option value="1400">14:00</option>
+        </select><br>
+
+        <label for="message">Optional message</label><br>
+        <input class="optional-message" type="text" id="message" name="message"><br>
+
+        <button class="submit-button my-5">Make An appointment</button>
+    </form>
+</div>
